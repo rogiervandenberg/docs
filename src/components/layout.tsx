@@ -52,7 +52,7 @@ const Content = styled.article<{ fullWidth?: boolean }>`
 
 const MaxWidth = styled.div`
   > section {
-    padding: 0 ${(p) => p.theme.space[40]};
+    padding: 0 ${(p) => p.theme.space[40]} 0 0;
     &.top-section {
       padding-top: 0;
     }
